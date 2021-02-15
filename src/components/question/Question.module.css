@@ -5,3 +5,28 @@
   justify-content: space-between;
   align-items: center;
 }
+.columnOneContainer div:first-child,
+.columnTwoContainer div:first-child {
+  background-color: white;
+  color: black;
+  cursor: auto;
+}
+.columnOneContainer div {
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  background-color: rgba(26, 188, 156, 1);
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: white;
+}
+.columnTwoContainer div {
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  background-color: rgba(162, 155, 254, 1);
+  letter-spacing: 1px;
+  color: white;
+}
