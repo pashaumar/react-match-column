@@ -1,32 +1,28 @@
 .questionContainer {
-  margin: auto;
-  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.buttonContainer {
+  width: 90%;
+  margin: 10px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.columnOneContainer div:first-child,
-.columnTwoContainer div:first-child {
-  background-color: white;
-  color: black;
-  cursor: auto;
-}
-.columnOneContainer div {
-  margin: 10px 0;
+.buttonContainer button {
+  border: none;
+  outline: none;
+  padding: 0.3rem 0.8rem;
   border-radius: 5px;
-  padding: 0.2rem 0.5rem;
-  text-align: center;
-  background-color: rgba(26, 188, 156, 1);
   cursor: pointer;
-  letter-spacing: 1px;
   color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.columnTwoContainer div {
-  margin: 10px 0;
-  border-radius: 5px;
-  padding: 0.2rem 0.5rem;
-  text-align: center;
-  background-color: rgba(162, 155, 254, 1);
-  letter-spacing: 1px;
-  color: white;
+.buttonContainer button:first-child {
+  background-color: rgba(26, 188, 156, 1);
+}
+.buttonContainer button:last-child {
+  background-color: rgba(52, 152, 219, 1);
 }

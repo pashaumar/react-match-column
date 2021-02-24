@@ -1,0 +1,32 @@
+.columnOneItem {
+  margin: 10px 0;
+  background-color: rgba(26, 188, 156, 1);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+.columnTwoItem {
+  margin: 5px 0;
+  background-color: rgba(52, 152, 219, 1);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0.3rem 0.5rem;
+  width: 100px;
+}
+.columnTwoItemContainer {
+  display: flex;
+  align-items: center;
+}
+.indexContainer {
+  margin-left: 10px;
+  background-color: rgba(52, 152, 219, 1);
+  color: white;
+  width: 20px;
+  text-align: center;
+  border-radius: 50px;
+}
