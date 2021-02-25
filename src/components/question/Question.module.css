@@ -26,3 +26,11 @@
 .buttonContainer button:last-child {
   background-color: rgba(52, 152, 219, 1);
 }
+@media screen and (max-width: 425px) {
+  .questionContainer {
+    justify-content: space-evenly;
+  }
+  .buttonContainer {
+    justify-content: space-around;
+  }
+}

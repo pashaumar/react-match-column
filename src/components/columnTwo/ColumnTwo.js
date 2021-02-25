@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ColumnTwoItem from "../columnItems/ColumnTwoItem";
 import { getCorrectAnswer } from "../../utils/getDummyData";
 function ColumnTwo({
@@ -8,7 +8,6 @@ function ColumnTwo({
   fetchingAnswer,
   myAnswerOrder,
 }) {
-  const [potentialAnswersIndex, setPotentialAnswersIndex] = useState({});
   const correctAnswer = JSON.parse(getCorrectAnswer);
   const showColumnTwoItems = () => {
     return rightColumnItems.map((item, index) => {
